@@ -6,7 +6,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="../assets/img/hotel1.jpg" alt>
-          </div>33
+          </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="../assets/img/hotel2.jpg" alt>
           </div>
