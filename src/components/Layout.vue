@@ -27,63 +27,45 @@
         </a>
       </div>
     </div>
-
-    <div class="bg-light">
-      <ul class="nav nav-pills nav-fill nav-justified">
-        <li class="nav-item">
-          <a href class="nav-link">全天房</a>
-        </li>
-        <li class="nav-item">
-          <a href class="nav-link text-muted">钟点房</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="bg-wt">
+    <div class="head_nav">
       <ul class="list-group">
-        <li class="list-group-item">
-          <i class="iconfont icon-Hotel"></i>
-          <span class="ml-4">泉州市</span>
-          <i class="iconfont icon-jiantou_liebiaoxiangyou"></i>
-
-          <span class="float-right text-muted">
-            <i class="iconfont icon-weizhixiangqing"></i>
-            我的位置
-          </span>
+        <li class="list-group">
+          <ul class="nav nav-fill">
+            <li class="nav-item">
+              <a class="text-dark" href="#">全天房</a>
+            </li>
+            <li class="nav-item">
+              <a class="muted" href="#">钟点房</a>
+            </li>
+            <li class="nav-item">
+              <a class="muted" href="#">特价房</a>
+            </li>
+          </ul>
         </li>
-        <li class="list-group-item">
-          <i class="iconfont icon-riqi1"></i>
-          <span class="ml-2">
-            <strong>2018-11-28</strong>
-            <small class="text-muted font-size:15px">周四</small>
-          </span>
-          <label class="ml-4">共1晚</label>
-          <span class="ml-4">
-            <strong>2018-11-29</strong>
-            <small class="text-muted font-size:15px">周五</small>
-          </span>
+        <li class>
+          <span>武汉市</span>
+          <span class="ml-80%">我的位置</span>
         </li>
-        <li class="list-group-item">
-          <i class="iconfont icon-lubiao"></i>
-          <small class="ml-2">位置/商圈/酒店名称</small>
-        </li>
+        <li class>日期</li>
+        <li class>名称</li>
       </ul>
     </div>
-
-    <div class="col-lg-4 bg-success">logo</div>
-    <div class="col-lg-4 bg-light">他们</div>
-    <div class="col-lg-4 bg-danger">我们</div>
-    <div style="width:20px;">哈哈哈哈哈哈哈ssfsffasfdfsfasfsafsafasfdasaasfwefwefwfwfwfwefeafs</div>
   </div>
 </template>
-<style lang="">
-.list-group > li {
-  border: 0px;
-  border-bottom: 2px solid #000;
+<style>
+#head_carousel img {
+  height: 150px;
 }
-.list-group > li > i,
-strong,
-span {
-  vertical-align: middle;
+.head_nav > ul > li {
+  position: relative;
+  display: block;
+  padding: 0.75rem 3.25rem;
+  border-style: none none solid none;
+  border-color: #6c757d14;
+}
+
+.muted {
+  font-size: 14px;
+  color: #606060;
 }
 </style>

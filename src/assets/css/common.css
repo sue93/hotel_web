@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+li,a{
+    text-decoration-style: none
+}
+
 .bg-d{
     background-color: #409EFF;
 }
