@@ -6,7 +6,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="../assets/img/hotel1.jpg" alt>
-          </div>
+          </div>33
           <div class="carousel-item">
             <img class="d-block w-100" src="../assets/img/hotel2.jpg" alt>
           </div>
@@ -28,15 +28,21 @@
       </div>
     </div>
 
+
     <div class="bg-xr">
+
+    <div class="bg-light">
+
       <ul class="nav nav-pills nav-fill nav-justified">
         <li class="nav-item">
+
           <a href class="nav-link">全天房</a>
         </li>
         <li class="nav-item">
           <a href class="nav-link text-muted">钟点房</a>
         </li>
       </ul>
+
     </div>
 
     <div class="bg-wt">
@@ -68,7 +74,29 @@
           <small class="ml-2">位置/商圈/酒店名称</small>
         </li>
       </ul>
+
+    </div>
+
+    <div class="row  main_head justify-content-between bg-info">
+    <div class="col-lg-4  bg-success">
+        logo
+    </div>
+    <div class="col-lg-4  bg-light">
+        他们
+    </div>
+    <div class="col-lg-4  bg-danger">
+        我们
+
     </div>
     <div style="width:20px;">哈哈哈哈哈哈哈ssfsffasfdfsfasfsafsafasfdasaasfwefwefwfwfwfwefeafs</div>
   </div>
 </template>
+<style lang="">
+  .list-group>li{
+    border:0px;
+    border-bottom:2px solid #000;
+  }
+   .list-group>li>i,strong,span{
+      vertical-align:middle;
+   }
+</style>
