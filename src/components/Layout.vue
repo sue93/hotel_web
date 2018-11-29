@@ -28,15 +28,21 @@
       </div>
     </div>
 
+<<<<<<< HEAD
     <div class="bg-xr">
+=======
+    <!-- <div class="bg-light">
+>>>>>>> 85d4a8912ed77b24bb970c1a62f2e2d7e4d87d57
       <ul class="nav nav-pills nav-fill nav-justified">
         <li class="nav-item">
+
           <a href class="nav-link">全天房</a>
         </li>
         <li class="nav-item">
           <a href class="nav-link text-muted">钟点房</a>
         </li>
       </ul>
+<<<<<<< HEAD
     </div>
 
     <div class="bg-wt">
@@ -68,7 +74,39 @@
           <small class="ml-2">位置/商圈/酒店名称</small>
         </li>
       </ul>
+=======
+    </div> -->
+<div class="bg-dark" style="height:200px;margin-top:20px;">
+<ul class="list-group">
+  <li class="list-group-item disabled form-inline">
+    <i class="iconfont icon-ditu" style="font-size:20px;"></i>
+    <strong>城市</strong>
+    <span class="text-primary ml-5">上海</span>
+  </li>
+  <li class="list-group-item">Second item</li>
+  <li class="list-group-item">Third item</li>
+</ul>
+</div>
+    <!-- <div class="row  main_head justify-content-between bg-info">
+    <div class="col-lg-4  bg-success">
+        logo
+    </div>
+    <div class="col-lg-4  bg-light">
+        他们
+    </div>
+    <div class="col-lg-4  bg-danger">
+        我们
+>>>>>>> 85d4a8912ed77b24bb970c1a62f2e2d7e4d87d57
     </div>
     <div style="width:20px;">哈哈哈哈哈哈哈ssfsffasfdfsfasfsafsafasfdasaasfwefwefwfwfwfwefeafs</div>
   </div>
 </template>
+<style lang="">
+  .list-group>li{
+    border:0px;
+    border-bottom:2px solid #000;
+  }
+   .list-group>li>i,strong,span{
+      vertical-align:middle;
+   }
+</style>
