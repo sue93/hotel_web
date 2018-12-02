@@ -1,33 +1,32 @@
 /* 取边距 */
-.mp0{  
-    margin: 0;
-    padding: 0;
-}
-ul
-{
-    list-style-type: none;
-    padding: 0px;
+body{  
     margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none
+}
+.mp-0{
+    margin: 0px;
+    padding: 0px;
+}
+.dis_inblock{
+display:inline-block;
 }
 
-li,a{
-    text-decoration-style: none     /*去掉下划线 */
+.btn_primary{
+    background-color: #37bbf3;
+    color: #ffff;
 }
-
-.bg-d{
-    background-color: #409EFF;
-}
-
-.bg-xr{
-    background-color: #E0E0E0;
-}
-.bg-wt{
-    background-color: #F0F0F0
-}
-
-.dis_block{
-    display: block;
-}
-.dis_inline{
+.test{
     display: inline-block;
 }
+
+/* #37bbf3 */
+/* #72859d  副标题*/ 
+/* #f44336   亮眼 */
+/* #1e2bcb  主体颜色 */
+/* #dee2e6  灰色 */
