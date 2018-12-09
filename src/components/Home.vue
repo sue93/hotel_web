@@ -1,16 +1,14 @@
 <template>
-<div>
-    sss
-<h1>{{name}}</h1>
+  <div>
+    <h1>{{name}}</h1>
 
-   <input  v-model.number="msg" type="number" placeholder="请输入年龄" value="">
-   <p>{{msg}}</p>
-</div>
-
+    <input v-model.number="msg" type="number" placeholder="请输入年龄" value>
+    <p>{{msg}}</p>
+  </div>
 </template>
 <script>
 export default {
-  name: 'Home',
+  name: 'home',
   data () {
     return {
       msg: '',
